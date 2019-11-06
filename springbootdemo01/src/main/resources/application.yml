@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/springboot
+    username: root
+    password: ROOT
+
+  redis:
+    database: 0
+    host: 192.168.81.10
+    password: offcn
+    port: 6379
+
+  jpa:
+    database: mysql
+    show-sql: true
+    generate-ddl: true
+
+
